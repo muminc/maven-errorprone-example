@@ -1,0 +1,1 @@
+Example project to show how to use ErrorProne in conjunction with NullAway
