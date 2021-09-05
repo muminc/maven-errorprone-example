@@ -2,9 +2,11 @@ package com.choudhury.errorprone;
 
 import java.util.Objects;
 
-public class FailingErrorProneClass {
+public class FailingErrorProneClass implements MyInterface {
 
 
+    /* ErrorProne should complain about the missing Override annotation*/
+    //@Override
     public void methodWithDeadException() {
         new Exception("to demonstrate error- prone failing for this line");
     }
